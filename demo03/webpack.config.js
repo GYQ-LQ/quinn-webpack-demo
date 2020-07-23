@@ -1,6 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const {
+    CleanWebpackPlugin
+} = require("clean-webpack-plugin");
 const ManifestPlugin = require("webpack-manifest-plugin");
 module.exports = {
     entry: {
@@ -11,7 +13,7 @@ module.exports = {
         new ManifestPlugin(),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: "Title From Config",
+            title: "Title From Config 管理输出",
         }),
     ],
     output: {
