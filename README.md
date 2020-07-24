@@ -527,6 +527,7 @@ npm install --save-dev style-loader css-loader
 - webpack.config.js
 
 ```
+
   module.exports = {
 +   module: {
 +     rules: [
