@@ -568,7 +568,7 @@ npm install --save-dev style-loader css-loader
 
 ---
 
-# demo06 tree shaking [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-demo/tree/master/demo06)
+# demo06 tree shaking && 生产环境构建 [(GitHub)](https://github.com/GYQ-LQ/quinn-webpack-demo/tree/master/demo06)
 
 ## tree shaking
 
